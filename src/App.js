@@ -1,15 +1,26 @@
 import React from 'react'
 import Header from './components/Header'
 import './App.css'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import TinderCards from './components/TinderCards'
 
 function App() {
   return (
     <div className='app'>
-      <h1>lets build tinder clone 🚀🚀🔥🔥</h1>
       <Header />
-      {/* header */}
-      {/* tinder card */}
-      {/* footer */}
+      <Router>
+        <Switch>
+          <Route path='/chat'>
+            <h1> you are in chat page</h1>
+          </Route>
+          <Route exact path='/'>
+            <TinderCards />
+          </Route>
+          <Route>
+            <h1> 404 not found</h1>
+          </Route>
+        </Switch>
+      </Router>
     </div>
   )
 }
