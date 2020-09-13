@@ -3,6 +3,7 @@ import Header from './components/Header'
 import './App.css'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import TinderCards from './components/TinderCards'
+import SwipeButtons from './components/SwipeButtons'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           </Route>
           <Route exact path='/'>
             <TinderCards />
+            <SwipeButtons />
           </Route>
           <Route>
             <h1> 404 not found</h1>
