@@ -18,6 +18,23 @@ function ChatScreen() {
       message: 'how its going 😉',
     },
     {
+      name: person,
+      image: 'https://i.pinimg.com/originals/d2/ee/cc/d2eecc07d66694333eb28e4287e9a3de.jpg',
+      message: 'hi, how are u?',
+    },
+    {
+      name: person,
+      image: 'https://i.pinimg.com/originals/d2/ee/cc/d2eecc07d66694333eb28e4287e9a3de.jpg',
+      message: 'how its going 😉',
+    },
+
+    {
+      message: 'hows its gping 😘?',
+    },
+    {
+      message: 'hows its gping 😘?',
+    },
+    {
       message: 'hows its gping 😘?',
     },
   ])
@@ -29,20 +46,22 @@ function ChatScreen() {
   }
 
   return (
-    <div className='chatscreen'>
+    <div className='chatScreen'>
       <p className='chatScreen__timestamp'>YOU MATCH WITH {person} ON 10/08/2020</p>
-      {messages.map(message =>
-        message.name ? (
-          <div className='chatScreen__message' key={message.name}>
-            <Avatar src={message.image} className='chatScreen__image' alt={message.name} />
-            <p className='chatScreen__text'>{message.message}</p>
-          </div>
-        ) : (
-          <div className='chatScreen__message' key={message.name}>
-            <p className='chatScreen__textUser'>{message.message}</p>
-          </div>
-        )
-      )}
+      <div className='n'>
+        {messages.map(message =>
+          message.name ? (
+            <div className='chatScreen__message' key={message.name}>
+              <Avatar src={message.image} className='chatScreen__image' alt={message.name} />
+              <p className='chatScreen__text'>{message.message}</p>
+            </div>
+          ) : (
+            <div className='chatScreen__message' key={message.name}>
+              <p className='chatScreen__textUser'>{message.message}</p>
+            </div>
+          )
+        )}
+      </div>
 
       <form className='chatScreen__form' onSubmit={handleSubmit}>
         <input

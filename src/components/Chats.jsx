@@ -29,6 +29,36 @@ function Chats() {
         timestamp='1 week ago'
         profilePic='https://1.bp.blogspot.com/-d1rrVLTzBqg/XZcQKag-xhI/AAAAAAAAC58/UyHnvwUiOw8Le_2paf2YX-JtuwEpIMAEgCNcBGAsYHQ/s1600/girls%2Battitude%2Bpics%2Bdownload.jpg'
       />
+      <Chat
+        name='Jain'
+        message='opps there is he ...🐕‍🦺'
+        timestamp='1 week ago'
+        profilePic='https://1.bp.blogspot.com/-d1rrVLTzBqg/XZcQKag-xhI/AAAAAAAAC58/UyHnvwUiOw8Le_2paf2YX-JtuwEpIMAEgCNcBGAsYHQ/s1600/girls%2Battitude%2Bpics%2Bdownload.jpg'
+      />
+      <Chat
+        name='Jain'
+        message='opps there is he ...🐕‍🦺'
+        timestamp='1 week ago'
+        profilePic='https://1.bp.blogspot.com/-d1rrVLTzBqg/XZcQKag-xhI/AAAAAAAAC58/UyHnvwUiOw8Le_2paf2YX-JtuwEpIMAEgCNcBGAsYHQ/s1600/girls%2Battitude%2Bpics%2Bdownload.jpg'
+      />
+      <Chat
+        name='Jain'
+        message='opps there is he ...🐕‍🦺'
+        timestamp='1 week ago'
+        profilePic='https://1.bp.blogspot.com/-d1rrVLTzBqg/XZcQKag-xhI/AAAAAAAAC58/UyHnvwUiOw8Le_2paf2YX-JtuwEpIMAEgCNcBGAsYHQ/s1600/girls%2Battitude%2Bpics%2Bdownload.jpg'
+      />
+      <Chat
+        name='Jain'
+        message='opps there is he ...🐕‍🦺'
+        timestamp='1 week ago'
+        profilePic='https://1.bp.blogspot.com/-d1rrVLTzBqg/XZcQKag-xhI/AAAAAAAAC58/UyHnvwUiOw8Le_2paf2YX-JtuwEpIMAEgCNcBGAsYHQ/s1600/girls%2Battitude%2Bpics%2Bdownload.jpg'
+      />
+      <Chat
+        name='Jain'
+        message='opps there is he ...🐕‍🦺'
+        timestamp='1 week ago'
+        profilePic='https://1.bp.blogspot.com/-d1rrVLTzBqg/XZcQKag-xhI/AAAAAAAAC58/UyHnvwUiOw8Le_2paf2YX-JtuwEpIMAEgCNcBGAsYHQ/s1600/girls%2Battitude%2Bpics%2Bdownload.jpg'
+      />
     </div>
   )
 }

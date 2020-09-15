@@ -1,0 +1,7 @@
+.chats {
+  max-height: 560px;
+  overflow-y: scroll;
+}
+.chats::-webkit-scrollbar {
+  width: 0px;
+}
