@@ -16,7 +16,7 @@ function Header({backButton}) {
         </IconButton>
       ) : (
         <IconButton>
-          <PersonIcon fontSize='large' />
+          <PersonIcon fontSize='large' onClick={() => history.push('/add-person')} />
         </IconButton>
       )}
 

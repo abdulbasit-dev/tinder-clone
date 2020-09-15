@@ -8,9 +8,12 @@ function TinderCards() {
 
   //a pecie of code run based on a con dition
   useEffect(() => {
-    const unsubscribe = db.collection('people').onSnapshot(snapshot => {
-      setPeople(snapshot.docs.map(doc => doc.data()))
-    })
+    const unsubscribe = db
+      .collection('people')
+      .orderBy('timestamp', 'asc')
+      .onSnapshot(snapshot => {
+        setPeople(snapshot.docs.map(doc => doc.data()))
+      })
 
     // clean up function
     return () => {

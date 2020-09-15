@@ -6,6 +6,7 @@ import TinderCards from './components/TinderCards'
 import SwipeButtons from './components/SwipeButtons'
 import Chats from './components/Chats'
 import ChatScreen from './components/ChatScreen'
+import AddCard from './components/AddCard'
 
 function App() {
   return (
@@ -19,6 +20,10 @@ function App() {
           <Route path='/chats'>
             <Header backButton='/' />
             <Chats />
+          </Route>
+          <Route path='/add-person'>
+            <Header />
+            <AddCard />
           </Route>
           <Route exact path='/'>
             <Header />
