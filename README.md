@@ -1,4 +1,4 @@
-packages usein this project:
+packages used this project:
 
 - react-router-dom
 - yarn add @material-ui/core
